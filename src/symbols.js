@@ -23,7 +23,7 @@ export default {
   'BTC': '฿',
   'BTN': 'Nu.',
   'BWP': 'P',
-  'BYR': 'p.',
+  'BYN': 'p.',
   'BZD': 'BZ$',
   'CAD': '$',
   'CDF': 'FC',
