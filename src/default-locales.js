@@ -22,7 +22,7 @@ export default {
   BSD: 'en_BS',
   BTN: 'dz',
   BWP: 'en_BW',
-  BYR: 'be',
+  BYN: 'be',
   BZD: 'en_BZ',
   CAD: 'en_CA',
   CDF: 'fr_CD',
