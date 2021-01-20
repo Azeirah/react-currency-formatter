@@ -5,7 +5,7 @@ import locales from './locales';
 import defaultLocales from './default-locales';
 import symbols from './symbols';
 
-const ReactCurrencyFormatter = props => {
+const ReactCurrencyFormatterV2 = props => {
   const getFormatter = options => {
     let locale, currency, symbol, pattern, decimal, group;
 
@@ -197,11 +197,11 @@ const ReactCurrencyFormatter = props => {
   }));
 };
 
-ReactCurrencyFormatter.defaultProps = {
+ReactCurrencyFormatterV2.defaultProps = {
   currency: 'USD'
 };
 
-ReactCurrencyFormatter.propTypes = {
+ReactCurrencyFormatterV2.propTypes = {
   quantity: PropTypes.number.isRequired,
   currency: PropTypes.string,
   symbol: PropTypes.string,
@@ -211,4 +211,4 @@ ReactCurrencyFormatter.propTypes = {
   pattern: PropTypes.string
 };
 
-export default ReactCurrencyFormatter;
+export default ReactCurrencyFormatterV2;
